@@ -9,10 +9,236 @@
     --Popins:'Poppins', sans-serif;
 }
 
+body{
+    background-color: var(--Very-Pale-Blue);
+    background-color: #fff;
+
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+.Header{
+    position: relative;
+    max-width: 450px;
+    height: auto;
+    margin:  0 auto;
+    padding-bottom: 5rem;
+    background-color: white;
+    
+    
+}
+.Hhundle{
+    width: 100%;
+    height: 5rem;
+    padding:0 6% 0 6% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.hundleLgo{
+    width: 7rem;
+    
+}
+.hundleBtn{
+    border: none;
+    background-color: transparent;
+    border-radius:25px ;
+    color: var(--Pink);
+    border: solid 1px var(--Pink);
+    height: 25px;
+    width: 75px;
+    font-size: x-small;
+    
+    
+}
+
+.Header h1{
+    margin-top: 5rem;
+    margin-bottom: 30px;
+    font-family: var(--Popins);
+    color: var(--Very-Dark-Cyan);
+    text-align: center;
+    font-size: 26px;
+    padding: 0 15px;
+    
+}
+.Header p {
+
+    font-family: var(--Opensans);
+    text-align: center;
+    font-size: 15px;
+    padding: 0 6%;
+    color: var(--Very-Dark-Cyan);
+    margin-bottom: 2.8rem;
+    
+}
+
+.Header .get{
+display: block;
+    width: 70%;
+    height: 40px;
+    margin: 0 auto;
+    background-color: var(--Light-Pink);
+    border: none;
+    color: white;
+    font-family: var(--Popins);
+    font-size: 12px;
+
+}
+.ftrHundle{
+    width: 100%;
+
+}
+
+.Himg{
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 0 6%;
+}
+
+.frtOne{
+    width: 50%;
+    height: 8rem;
+    margin: 0 auto;
+    font-family: var(--Opensans);
+    img{
+        width: 30px;
+        margin-left: 2rem;
+    
+    }
+    h2{
+        text-align: center;
+        font-size: 50px;
+    
+    }
+    
+    .parafo{
+        margin-bottom: 0;
+    
+    }
+    
+}
+
+.frtOne + .frtOne{
+    margin-top: 5rem;
+    img{
+        margin-left: 1.5rem;
+    
+    }
     
 
+}
+.backimg{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-image: url(/images/bg-section-top-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+
+}
+
+.growT{
+    margin: 0 auto;
+    max-width: 375px;
+    height: auto;
+    background-color: var(--Very-Pale-Blue);
+    border: solid 0.1px var(--Very-Pale-Blue);
+    margin-bottom: 4.5rem;
+    position: relative;
+    border: solid 1px var(--Very-Pale-Blue);
+}
+
+.growT-image{
+    width: 100%;
+    height: auto;
+    img{
+        display: block;
+        max-width: 275px;
+        margin: 0 auto;
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+}
+.growT-text{
+    width: 100%;
+    height: auto;
+    h2{
+        font-family: var(--Popins);
+        font-weight: 600;
+        color: var(--Very-Dark-Cyan);
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 18px;
+    }
+    p{
+        text-align: center;
+        font-family: var(--Opensans);
+        font-size: small;
+        padding: 0 30px;
+        line-height: 23px;
+        color: var(--Very-Dark-Cyan);
+        
+        
+    }
+    
+    
+    
+    
+}
+.topback{
+    position: absolute;
+    background-image:url(/images/bg-section-bottom-mobile-1.svg);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+.white{
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 13rem;
+    max-width: 450px;
+    
+    p{
+        max-width: 375px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    img{
+        margin-top: 9rem;
+        
+    
+    }
+
+}
+.ulti{
+    position: relative;
+    padding-bottom: 13rem;
+    border-bottom: solid 3px black;
+}
+.imfo{
+    position: absolute;
+    background-image:url(/images/bg-section-top-mobile-2.svg);
+    width: 100%;
+    height: 6rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 0;
+}
+.rejister{
+    max-width: 450px;
+    height: 250px;
 }
