@@ -11,7 +11,12 @@
 
 body{
     background-color: var(--Very-Pale-Blue);
+  
    
+
+}
+button:hover{
+    cursor: pointer;
 
 }
 
@@ -79,7 +84,7 @@ body{
 }
 
 .Header .get{
-display: block;
+    display: block;
     width: 70%;
     height: 40px;
     margin: 0 auto;
@@ -237,8 +242,11 @@ display: block;
 .rejister{
 position: relative;
 background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 450px;
-    height: auto;
+    height: 600px;
     margin: 0 auto;
 }
 
@@ -253,13 +261,19 @@ background-color: #fff;
 }
 .flex{
     color: var(--Very-Dark-Cyan);
-    padding-top: 10rem;
+   
     font-family: var(--Popins);
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 25px;
+    
+    h2{
+        width: 80%;
+        align-self: center;
+        
+    }
     
 
 }
@@ -285,3 +299,112 @@ background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.imo-1{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    background-image: url(/images/bg-footer-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.foter{
+    max-width: 450px;
+    margin: 0 auto;
+    height: auto;
+    color: #fff;
+    background-color: var(--Very-Dark-Cyan);
+    padding: 0 30px 50px 30px;
+    font-family: var(--Opensans);
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    p{
+        font-family: var(--Opensans);
+        font-size: 15px;
+    }
+    
+}
+.footer1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    .inpt{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        input{
+            width: 100%;
+            height: 2.8rem;
+        }
+        button{
+            font-family: var(--Popins);
+            height: 2.8rem;
+            width: 35%;
+            align-self: self-end;
+            background-color: var(--Pink);
+            color: #fff;
+            border-radius: 5px;
+            border: none;
+        
+            
+            
+        }
+    
+    
+    }
+}
+
+
+.footer2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    a{
+        display: block;
+    
+    }
+    .flex1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .img{
+            width: 180px;
+        }
+        
+    }
+    .flex2{
+        height: 60px;
+        display:  flex;
+        flex-direction: column;
+        gap: 12px;
+        a{
+        color: #fff;
+        text-decoration: none;
+        }
+       
+        img{
+            position: relative;
+            bottom: -4px;
+            margin-right: 10px;
+            
+        
+        }
+        
+    }
+    .flex3{
+        display: flex;
+        gap: 10px;
+        img{
+            cursor: pointer;
+        }
+    }
+   
+    
+}
+
+
