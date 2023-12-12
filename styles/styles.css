@@ -408,3 +408,12 @@ background-color: #fff;
 }
 
 
+@media(min-width:800px){
+    body{
+        background-color: blue;
+    }
+
+
+}
+
+
