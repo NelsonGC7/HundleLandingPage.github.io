@@ -11,7 +11,7 @@
 
 body{
     background-color: var(--Very-Pale-Blue);
-    background-color: #fff;
+   
 
 }
 
@@ -148,7 +148,7 @@ display: block;
 
 .growT{
     margin: 0 auto;
-    max-width: 375px;
+    max-width: 450px;
     height: auto;
     background-color: var(--Very-Pale-Blue);
     border: solid 0.1px var(--Very-Pale-Blue);
@@ -201,6 +201,7 @@ display: block;
     height: 100px;
     background-repeat: no-repeat;
     background-size: contain;
+  
     
 
 }
@@ -225,20 +226,62 @@ display: block;
 
 }
 .ulti{
+    max-width: 450px;
+    height: auto;
     position: relative;
-    padding-bottom: 13rem;
-    border-bottom: solid 3px black;
+    padding-bottom: 5rem;
+    margin-bottom: 0;
+   
+}
+
+.rejister{
+position: relative;
+background-color: #fff;
+    max-width: 450px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.imo{
+    position: absolute;
+    background-image:url(/images/bg-section-bottom-mobile-2.svg);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 0;
+}
+.flex{
+    color: var(--Very-Dark-Cyan);
+    padding-top: 10rem;
+    font-family: var(--Popins);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    
+
+}
+
+.flex .get{
+    display: block;
+    width: 70%;
+    height: 40px;
+    margin: 0 auto;
+    background-color: var(--Light-Pink);
+    border: none;
+    color: white;
+    font-family: var(--Popins);
+    font-size: 12px;
+    
 }
 .imfo{
     position: absolute;
-    background-image:url(/images/bg-section-top-mobile-2.svg);
+    height: 150px;
     width: 100%;
-    height: 6rem;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
     bottom: 0;
-}
-.rejister{
-    max-width: 450px;
-    height: 250px;
+    background-image: url(/images/bg-section-top-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
