@@ -408,3 +408,95 @@ background-color: #fff;
 }
 
 
+@media(min-width:800px){
+    .Header{
+        min-width: 800px;
+        max-width: 1440px;
+        padding-bottom: 20rem;
+        h1{
+            display:block;
+            width: 68%;
+            margin: 0 auto;
+            font-size: 44.9px;
+            text-align: cente;
+            margin-top: 7.5rem;
+            
+        }
+        p{
+            width: 40%;
+            margin: 0 auto;
+            padding: 2rem 4.5px 3.5rem 4.5px;
+            line-height: 28px;
+            font-size: large;
+            
+        }
+    
+    }
+    .Hhundle{
+    height: 8rem;
+    }
+    .hundleLgo{
+        width: auto;
+         
+    }
+    .hundleBtn{
+        height: 39px;
+        width: 10%;
+        font-size: medium;
+    }
+    .Header .get{
+        font-size: larger;
+        border-radius: 40px;
+        height: 75px;
+        width: 26%;
+        margin-bottom: 5rem;
+    
+    }
+    .Himg{
+        padding: 0;
+        display: block;
+        max-width: 978.8px;
+        margin: 0 auto;
+    
+    }
+    .ftrHundle{
+        margin-top: 6rem;
+        height: 10rem;
+        min-width: 800;
+        max-width: 1400;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: end;
+        
+    
+    }
+    .frtOne{
+        position: relative;
+        width: 32%;
+        height: 100%;
+        margin: 0;
+        h2{
+            font-size: 65px;
+        }
+        p{
+            padding: 0;
+        }
+        img{
+            width: 45px;
+            margin-left: 32.8%;
+        }
+        
+       
+    }
+    .frtOne + .frtOne{
+        z-index: 2;
+        margin: 0;
+        img{
+            width: 45px;
+            margin-left: 30.4%;
+        }
+        
+    
+    }
+
+}
