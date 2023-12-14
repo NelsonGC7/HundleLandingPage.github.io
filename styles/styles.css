@@ -498,5 +498,66 @@ background-color: #fff;
         
     
     }
+    
+    .growT{
+        min-width: 800px;
+        max-width: 1400px;
+        display: flex;
+        
+        
+       .uno{
+        order: 1;
+       }
+       .dos{
+        order: 2;
+        h2{
+            text-align: left;
+            align-self: self-end;
+        }
+        p{
+            max-width: none;
+            width: 85%;
+            text-align: left;
+            text-align: left;
+            align-self: self-end;
+        }
+        
+       
+       }
+    }
+    .growT-image{
+        img{
+            max-width: 80%;
+            
+        }
+    
+    }
+    .growT-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            font-size: 46px;
+            width: 85%;
+            text-align: end;
+            
+        }
+        p{font-size: 17px;
+            padding: 0;
+            margin: 0;
+            width: 85%;
+            text-align: end;
+        
+        }
+       
+    
+    
+    }
+    
+    
+    .imfo,
+    .topback{
+        display: none;
+    }
 
 }
