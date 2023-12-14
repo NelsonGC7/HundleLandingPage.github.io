@@ -553,7 +553,58 @@ background-color: #fff;
     
     
     }
+    .rejister{
+        min-width: 800px;
+        max-width: none;
+        max-width: 1400px;
+        h2{
+            font-size: 40px;
+        
+        }
+       
+    }
+    .flex .get{
+        height: 75px;
+        width: 25%;
+        font-size: large;
+        border-radius: 50px;
+    }
+    .foter{
+        min-width: 800px;
+        max-width: 1400px;
+        flex-direction: row;
+        padding-left:8% ;
+        padding-right: 8%;
+    }
     
+    .footer1{
+        order: 2;
+        width: 60%;
+        gap: 2.5rem;
+        p{
+            width: 55%;
+            font-size: 15px;
+           
+        }
+        .inpt{
+            flex-direction: row;
+        }
+        
+        
+    
+    }
+    .footer2{
+         order: 1;
+         width: 50%;
+         
+        p{
+            width: 55%;
+            font-size: 15px;
+        }
+        .flex3 img{
+            width: 40px;
+        }
+    }
     
     .imfo,
     .topback{
