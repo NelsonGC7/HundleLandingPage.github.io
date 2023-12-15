@@ -409,6 +409,24 @@ background-color: #fff;
 
 
 @media(min-width:800px){
+    body{
+        background-color: blue;
+    }
+
+
+}
+
+
+@media(min-width:800px){
+    body{
+        background-color: blue;
+    }
+
+
+}
+
+
+@media(min-width:800px){
     .Header{
         min-width: 800px;
         max-width: 1440px;
