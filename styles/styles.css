@@ -144,7 +144,7 @@ button:hover{
     bottom: 0;
     width: 100%;
     height: 150px;
-    background-image: url(/images/bg-section-top-mobile-1.svg);
+    background-image: url(../images/bg-section-top-mobile-1.svg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
@@ -201,7 +201,7 @@ button:hover{
 }
 .topback{
     position: absolute;
-    background-image:url(/images/bg-section-bottom-mobile-1.svg);
+    background-image:url(../images/bg-section-bottom-mobile-1.svg);
     width: 100%;
     height: 100px;
     background-repeat: no-repeat;
@@ -252,7 +252,7 @@ background-color: #fff;
 
 .imo{
     position: absolute;
-    background-image:url(/images/bg-section-bottom-mobile-2.svg);
+    background-image:url(../images/bg-section-bottom-mobile-2.svg);
     width: 100%;
     height: 100px;
     background-repeat: no-repeat;
@@ -295,7 +295,7 @@ background-color: #fff;
     height: 150px;
     width: 100%;
     bottom: 0;
-    background-image: url(/images/bg-section-top-mobile-2.svg);
+    background-image: url(../images/bg-section-top-mobile-2.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -304,7 +304,7 @@ background-color: #fff;
     height: 100px;
     width: 100%;
     bottom: 0;
-    background-image: url(/images/bg-footer-top-mobile.svg);
+    background-image: url(../images/bg-footer-top-mobile.svg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
@@ -613,18 +613,18 @@ background-color: #fff;
     
     
     .topback{
-        background-image: url('/images/bg-section-bottom-desktop-1.svg');
+        background-image: url(../images/bg-section-bottom-desktop-1.svg);
         width: 100%;
         background-size: 100%;
     }
     .imfo{
-        background-image: url(/images/bg-section-top-desktop-2.svg);
+        background-image: url(../images/bg-section-top-desktop-2.svg);
     }
     .imo{
-        background-image: url(/images/bg-section-bottom-desktop-2.svg);
+        background-image: url(../images/bg-section-bottom-desktop-2.svg);
     }
     .imo-1{
-        background: url(/images/bg-footer-top-desktop.svg);
+        background: url(../images/bg-footer-top-desktop.svg);
         height: 10rem;
         bottom: -10px;
     
