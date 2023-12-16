@@ -408,12 +408,226 @@ background-color: #fff;
 }
 
 
+
+
+
 @media(min-width:800px){
-    body{
-        background-color: blue;
+    .Header{
+        min-width: 800px;
+        max-width: 1440px;
+        padding-bottom: 20rem;
+        h1{
+            display:block;
+            width: 68%;
+            margin: 0 auto;
+            font-size: 44.9px;
+            text-align: cente;
+            margin-top: 7.5rem;
+            
+        }
+        p{
+            width: 40%;
+            margin: 0 auto;
+            padding: 2rem 4.5px 3.5rem 4.5px;
+            line-height: 28px;
+            font-size: large;
+            
+        }
+    
+    }
+    .Hhundle{
+    height: 8rem;
+    }
+    .hundleLgo{
+        width: auto;
+         
+    }
+    .hundleBtn{
+        height: 39px;
+        width: 10%;
+        font-size: medium;
+    }
+    .Header .get{
+        font-size: larger;
+        border-radius: 40px;
+        height: 75px;
+        width: 26%;
+        margin-bottom: 5rem;
+    
+    }
+    .Himg{
+        padding: 0;
+        display: block;
+        max-width: 978.8px;
+        margin: 0 auto;
+    
+    }
+    .ftrHundle{
+        margin-top: 6rem;
+        height: 10rem;
+        min-width: 800;
+        max-width: 1400;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: end;
+        
+    
+    }
+    .frtOne{
+        position: relative;
+        width: 32%;
+        height: 100%;
+        margin: 0;
+        h2{
+            font-size: 65px;
+        }
+        p{
+            padding: 0;
+        }
+        img{
+            width: 45px;
+            margin-left: 32.8%;
+        }
+        
+       
+    }
+    .frtOne + .frtOne{
+        z-index: 2;
+        margin: 0;
+        img{
+            width: 45px;
+            margin-left: 30.4%;
+        }
+        
+    
+    }
+    
+    .growT{
+        min-width: 800px;
+        max-width: 1400px;
+        display: flex;
+        
+        
+       .uno{
+        order: 1;
+       }
+       .dos{
+        order: 2;
+        h2{
+            text-align: left;
+            align-self: self-end;
+        }
+        p{
+            max-width: none;
+            width: 85%;
+            text-align: left;
+            text-align: left;
+            align-self: self-end;
+        }
+        
+       
+       }
+    }
+    .growT-image{
+        img{
+            max-width: 80%;
+            
+        }
+    
+    }
+    .growT-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            font-size: 46px;
+            width: 85%;
+            text-align: start;
+            
+        }
+        p{font-size: 17px;
+            padding: 0;
+            margin: 0;
+            width: 85%;
+            text-align: start;
+        
+        }
+       
+    
+    
+    }
+    .rejister{
+        min-width: 800px;
+        max-width: none;
+        max-width: 1400px;
+       height: 750px;
+        h2{
+            font-size: 40px;
+        
+        }
+       
+    }
+    .flex .get{
+        height: 75px;
+        width: 25%;
+        font-size: large;
+        border-radius: 50px;
+    }
+    .foter{
+    height: 450px;
+        min-width: 800px;
+        max-width: 1400px;
+        flex-direction: row;
+        padding: 2rem 8% 5rem 8%;
+        
+    }
+    
+    .footer1{
+        order: 2;
+        width: 60%;
+        gap: 2.5rem;
+        p{
+            width: 55%;
+            font-size: 15px;
+           
+        }
+        .inpt{
+            flex-direction: row;
+        }
+        
+        
+    
+    }
+    .footer2{
+         order: 1;
+         width: 50%;
+         
+        p{
+            width: 55%;
+            font-size: 15px;
+        }
+        .flex3 img{
+            width: 40px;
+        }
+    }
+    
+    
+    .topback{
+        background-image: url('/images/bg-section-bottom-desktop-1.svg');
+        width: 100%;
+        background-size: 100%;
+    }
+    .imfo{
+        background-image: url(/images/bg-section-top-desktop-2.svg);
+    }
+    .imo{
+        background-image: url(/images/bg-section-bottom-desktop-2.svg);
+    }
+    .imo-1{
+        background: url(/images/bg-footer-top-desktop.svg);
+        height: 10rem;
+        bottom: -10px;
+    
     }
 
-
 }
-
-
