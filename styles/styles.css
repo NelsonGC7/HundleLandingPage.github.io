@@ -408,22 +408,7 @@ background-color: #fff;
 }
 
 
-@media(min-width:800px){
-    body{
-        background-color: blue;
-    }
 
-
-}
-
-
-@media(min-width:800px){
-    body{
-        background-color: blue;
-    }
-
-
-}
 
 
 @media(min-width:800px){
@@ -557,14 +542,14 @@ background-color: #fff;
         h2{
             font-size: 46px;
             width: 85%;
-            text-align: end;
+            text-align: start;
             
         }
         p{font-size: 17px;
             padding: 0;
             margin: 0;
             width: 85%;
-            text-align: end;
+            text-align: start;
         
         }
        
@@ -575,6 +560,7 @@ background-color: #fff;
         min-width: 800px;
         max-width: none;
         max-width: 1400px;
+       height: 750px;
         h2{
             font-size: 40px;
         
@@ -588,11 +574,12 @@ background-color: #fff;
         border-radius: 50px;
     }
     .foter{
+    height: 450px;
         min-width: 800px;
         max-width: 1400px;
         flex-direction: row;
-        padding-left:8% ;
-        padding-right: 8%;
+        padding: 2rem 8% 5rem 8%;
+        
     }
     
     .footer1{
@@ -624,9 +611,23 @@ background-color: #fff;
         }
     }
     
-    .imfo,
+    
     .topback{
-        display: none;
+        background-image: url('/images/bg-section-bottom-desktop-1.svg');
+        width: 100%;
+        background-size: 100%;
+    }
+    .imfo{
+        background-image: url(/images/bg-section-top-desktop-2.svg);
+    }
+    .imo{
+        background-image: url(/images/bg-section-bottom-desktop-2.svg);
+    }
+    .imo-1{
+        background: url(/images/bg-footer-top-desktop.svg);
+        height: 10rem;
+        bottom: -10px;
+    
     }
 
 }
