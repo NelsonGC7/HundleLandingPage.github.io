@@ -27,7 +27,7 @@ button:hover{
 }
 .Header{
     position: relative;
-    max-width: 450px;
+    max-width: 750px;
     height: auto;
     margin:  0 auto;
     padding-bottom: 5rem;
@@ -46,20 +46,17 @@ button:hover{
     
 }
 .hundleLgo{
-    width: 7rem;
-    
+    width: 9rem;   
 }
 .hundleBtn{
     border: none;
     background-color: transparent;
-    border-radius:25px ;
+    border-radius:25px;
     color: var(--Pink);
     border: solid 1px var(--Pink);
-    height: 25px;
-    width: 75px;
-    font-size: x-small;
-    
-    
+    height: 40px;
+    width: 100px;
+    font-size: x-small;  
 }
 
 .Header h1{
@@ -68,7 +65,7 @@ button:hover{
     font-family: var(--Popins);
     color: var(--Very-Dark-Cyan);
     text-align: center;
-    font-size: 26px;
+    font-size: 32px;
     padding: 0 15px;
     
 }
@@ -76,7 +73,7 @@ button:hover{
 
     font-family: var(--Opensans);
     text-align: center;
-    font-size: 15px;
+    font-size: 19px;
     padding: 0 6%;
     color: var(--Very-Dark-Cyan);
     margin-bottom: 2.8rem;
@@ -86,7 +83,7 @@ button:hover{
 .Header .get{
     display: block;
     width: 70%;
-    height: 40px;
+    height: 60px;
     margin: 0 auto;
     background-color: var(--Light-Pink);
     border: none;
@@ -153,7 +150,7 @@ button:hover{
 
 .growT{
     margin: 0 auto;
-    max-width: 450px;
+    max-width: 750px;
     height: auto;
     background-color: var(--Very-Pale-Blue);
     border: solid 0.1px var(--Very-Pale-Blue);
@@ -182,22 +179,16 @@ button:hover{
         color: var(--Very-Dark-Cyan);
         margin-bottom: 1rem;
         text-align: center;
-        font-size: 18px;
+        font-size: 32px;
     }
     p{
         text-align: center;
         font-family: var(--Opensans);
-        font-size: small;
+        font-size: 19px;
         padding: 0 30px;
-        line-height: 23px;
-        color: var(--Very-Dark-Cyan);
-        
-        
-    }
-    
-    
-    
-    
+        line-height: 26px;
+        color: var(--Very-Dark-Cyan); 
+    }  
 }
 .topback{
     position: absolute;
@@ -215,7 +206,7 @@ button:hover{
     background-color: #fff;
     margin-bottom: 0;
     padding-bottom: 13rem;
-    max-width: 450px;
+    max-width: 750px;
     
     p{
         max-width: 375px;
@@ -231,7 +222,7 @@ button:hover{
 
 }
 .ulti{
-    max-width: 450px;
+    max-width: 750px;
     height: auto;
     position: relative;
     padding-bottom: 5rem;
@@ -245,7 +236,7 @@ background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 450px;
+    max-width: 750px;
     height: 600px;
     margin: 0 auto;
 }
@@ -272,6 +263,7 @@ background-color: #fff;
     h2{
         width: 80%;
         align-self: center;
+        font-size: 32px;
         
     }
     
@@ -281,13 +273,13 @@ background-color: #fff;
 .flex .get{
     display: block;
     width: 70%;
-    height: 40px;
+    height: 60px;
     margin: 0 auto;
     background-color: var(--Light-Pink);
     border: none;
     color: white;
     font-family: var(--Popins);
-    font-size: 12px;
+    font-size: 15px;
     
 }
 .imfo{
@@ -310,7 +302,7 @@ background-color: #fff;
     
 }
 .foter{
-    max-width: 450px;
+    max-width: 750px;
     margin: 0 auto;
     height: auto;
     color: #fff;
@@ -320,9 +312,12 @@ background-color: #fff;
     display: flex;
     flex-direction: column;
     gap: 3.5rem;
+    h3{
+        font-size: 32px;
+    }
     p{
         font-family: var(--Opensans);
-        font-size: 15px;
+        font-size: 18px;
     }
     
 }
@@ -341,7 +336,7 @@ background-color: #fff;
         }
         button{
             font-family: var(--Popins);
-            height: 2.8rem;
+            height: 3rem;
             width: 35%;
             align-self: self-end;
             background-color: var(--Pink);
@@ -385,6 +380,10 @@ background-color: #fff;
         a{
         color: #fff;
         text-decoration: none;
+        font-size: 25px;
+            img{
+                 width: 25px;
+            }
         }
        
         img{
@@ -401,6 +400,7 @@ background-color: #fff;
         gap: 10px;
         img{
             cursor: pointer;
+            width: 50px;
         }
     }
    
@@ -414,7 +414,7 @@ background-color: #fff;
 @media(min-width:800px){
     .Header{
         min-width: 800px;
-        max-width: 1440px;
+        max-width: 1600px;
         padding-bottom: 20rem;
         h1{
             display:block;
@@ -466,7 +466,7 @@ background-color: #fff;
         margin-top: 6rem;
         height: 10rem;
         min-width: 800;
-        max-width: 1400;
+        max-width: 1600;
         display: flex;
         justify-content: space-evenly;
         align-content: end;
@@ -504,8 +504,9 @@ background-color: #fff;
     
     .growT{
         min-width: 800px;
-        max-width: 1400px;
+        max-width: 1600px;
         display: flex;
+        padding-left: 2rem;
         
         
        .uno{
@@ -559,7 +560,7 @@ background-color: #fff;
     .rejister{
         min-width: 800px;
         max-width: none;
-        max-width: 1400px;
+        max-width: 1600px;
        height: 750px;
         h2{
             font-size: 40px;
@@ -576,7 +577,7 @@ background-color: #fff;
     .foter{
     height: 450px;
         min-width: 800px;
-        max-width: 1400px;
+        max-width: 1600px;
         flex-direction: row;
         padding: 2rem 8% 5rem 8%;
         
