@@ -634,7 +634,9 @@ background-color: #fff;
     .imo-1{
         background: url(../images/bg-footer-top-desktop.svg);
         height: 10rem;
-        bottom: -10px;
+        bottom: ;
+        background-repeat: no-repeat;
+        background-size: cover;
     
     }
 
