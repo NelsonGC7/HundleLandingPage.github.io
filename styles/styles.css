@@ -506,17 +506,25 @@ background-color: #fff;
         min-width: 800px;
         max-width: 1600px;
         display: flex;
-        padding-left: 2rem;
+        
         
         
        .uno{
         order: 1;
+        h2{
+            margin-left: 2rem;
+        }
+        p{
+            margin-left: 2rem;
+        
+        }
        }
        .dos{
         order: 2;
         h2{
             text-align: left;
             align-self: self-end;
+            
         }
         p{
             max-width: none;
@@ -615,7 +623,6 @@ background-color: #fff;
     
     .topback{
         background-image: url(../images/bg-section-bottom-desktop-1.svg);
-        width: 100%;
         background-size: 100%;
     }
     .imfo{
